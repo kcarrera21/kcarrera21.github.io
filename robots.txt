@@ -1,0 +1,7 @@
+# Keep holiday email image out of search and image results.
+# The /thanksgiving/ page stays crawlable so search engines can read its noindex tag.
+User-agent: *
+Disallow: /thanksgiving/sahara-thanksgiving-2026.gif
+
+User-agent: Googlebot-Image
+Disallow: /thanksgiving/
